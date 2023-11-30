@@ -12,10 +12,6 @@ This implementation:
 
 ## Getting Started
 
-W-HMR has been implemented and tested on Ubuntu 18.04 with python == 3.8.
-
-Install the requirements following environment.yml
-
 ## Running the Demo
 
 ### W-HMR

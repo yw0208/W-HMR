@@ -1,5 +1,5 @@
 # W-HMR: Human Mesh Recovery in World Space with Weak-supervised Camera Calibration and Orientation Correction
-
+[![report](https://img.shields.io/badge/ArXiv-Paper-red)](https://arxiv.org/abs/2311.17460)
 ## Features
 
 W-HMR is a human body pose and shape estimation method in world space. 
@@ -20,15 +20,8 @@ Install the requirements following environment.yml
 
 ### W-HMR
 
-First, you need to download the required data 
-(i.e our trained model and SMPL model parameters) from [here](https://drive.google.com/file/d/1zdQ3nPRgoHr7fM_U-6olxA9qgFHytaoe/view?usp=drive_link). It is approximately 700MB.
-Unzip it and put it in the repository root.
+ Codes and pre-trained model will come after publication.
 
-Then, running the demo is as simple as:
-
-```shell
-python demo/whmr_demo.py --image_folder data/sample_images --output_folder output/sample_images
-```
 Sample demo output:
 
 <p float="left">
@@ -40,10 +33,6 @@ On the right, they are the output in camera and world coordinate. We put them in
 ## Training
 
 Training instructions will follow after publication.
-
-## License
-
-This code is available for **non-commercial scientific research purposes** as defined in the [LICENSE file](LICENSE). By downloading and using this code you agree to the terms in the [LICENSE](LICENSE). Third-party datasets and software are subject to their respective licenses.
 
 ## Acknowledgments
 

@@ -1,5 +1,11 @@
 # W-HMR: Human Mesh Recovery in World Space with Weak-supervised Camera Calibration and Orientation Correction
+[![report](https://img.shields.io/badge/Project-Page-blue)](https://yw0208.github.io/w-hmr/)
 [![report](https://img.shields.io/badge/ArXiv-Paper-red)](https://arxiv.org/abs/2311.17460)
+
+<p float="center">
+  <img src="docs/demo.png" width="100%" />
+</p>
+
 ## Features
 
 W-HMR is a human body pose and shape estimation method in world space. 

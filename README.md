@@ -16,13 +16,37 @@ It predicts the SMPL body model in both camera and world coordinates for a monoc
 This implementation:
 - has the demo code for W-HMR implemented in PyTorch.
 
+## News 🚩
+
+[March 21, 2024] Release codes and pretrained weights for demo. 
+
+## TODOs
+
+- [x] Release demo codes.
+
+- [ ] Release pre-processed labels. 
+
+- [ ] Release evluation codes.  
+
+- [ ] Release training codes.  
+
 ## Getting Started
+
+W-HMR has been implemented and tested on Ubuntu 18.04 with python == 3.8.
+
+Install the requirements following environment.yml
 
 ## Running the Demo
 
 ### W-HMR
 
- Codes and pre-trained model will come after publication.
+ First, you need to download the required data 
+(i.e our trained model and SMPL model parameters) from [here](https://drive.google.com/file/d/1zdQ3nPRgoHr7fM_U-6olxA9qgFHytaoe/view?usp=drive_link). It is approximately 700MB.
+Unzip it and put it in the repository root. Then, running the demo is as simple as:
+
+```shell
+python demo/whmr_demo.py --image_folder data/sample_images --output_folder output/sample_images
+```
 
 Sample demo output:
 

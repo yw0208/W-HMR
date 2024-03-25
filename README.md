@@ -41,7 +41,7 @@ Install the requirements following environment.yml
 ### W-HMR
 
  First, you need to download the required data 
-(i.e our trained model and SMPL model parameters) from [here](https://drive.google.com/file/d/1zdQ3nPRgoHr7fM_U-6olxA9qgFHytaoe/view?usp=drive_link). It is approximately 700MB.
+(i.e our trained model and SMPL model parameters) from [here](https://drive.google.com/file/d/1zdQ3nPRgoHr7fM_U-6olxA9qgFHytaoe/view?usp=sharing). It is approximately 700MB.
 Unzip it and put it in the repository root. Then, running the demo is as simple as:
 
 ```shell

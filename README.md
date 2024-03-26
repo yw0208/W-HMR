@@ -18,23 +18,43 @@ This implementation:
 
 ## News 🚩
 
-[March 21, 2024] Release codes and pretrained weights for demo. 
+[March 21, 2024] Release codes and pretrained weights for demo.
+
+[March 26, 2024] Pre-processed labels are available now.
 
 ## TODOs
 
 - [x] Release demo codes.
 
-- [ ] Release pre-processed labels. 
+- [x] Release pre-processed labels. 
 
 - [ ] Release evluation codes.  
 
 - [ ] Release training codes.  
 
 ## Getting Started
-
+### Requirements
 W-HMR has been implemented and tested on Ubuntu 18.04 with python == 3.8.
 
 Install the requirements following environment.yml
+
+### Pre-processed Dataset Labels
+All the data used in our paper is publicly available. You can just download them from their official website following our
+dataset introduction in the [paper](https://arxiv.org/abs/2311.17460v3).
+
+But for your convenience, I provide some download links for pre-processed labels here.
+
+The most important source is [PyMAF](https://github.com/HongwenZhang/PyMAF). You can download the pre-processed labels of 
+3DPW, COCO, LSP, MPII and MPI-INF-3DHP, which include pseudo 3D joint label fitted by EFT.
+
+We also use some augmented data from [CLIFF](https://github.com/huawei-noah/noah-research) and [HMR 2.0](https://github.com/shubham-goel/4D-Humans).
+
+I also processed some dataset labels (e.g. AGORA and HuMMan), you can download them from [here](https://drive.google.com/file/d/1-R9Spqb3MG5b5FNQTrf8iH2vWMKwovAX/view?usp=sharing). 
+
+
+
+
+
 
 ## Running the Demo
 

@@ -50,7 +50,7 @@ The most important source is [PyMAF](https://github.com/HongwenZhang/PyMAF). You
 We also use some augmented data from [CLIFF](https://github.com/huawei-noah/noah-research) and [HMR 2.0](https://github.com/shubham-goel/4D-Humans).
 
 I also processed some dataset labels (e.g. AGORA and HuMMan), you can download them from [here](https://drive.google.com/file/d/1-R9Spqb3MG5b5FNQTrf8iH2vWMKwovAX/view?usp=sharing). 
-
+You should unzip the `data_extras.zip` and put it in the `./data/` folder.
 
 
 

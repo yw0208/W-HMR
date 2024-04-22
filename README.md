@@ -36,7 +36,7 @@ This implementation:
 ### Requirements
 W-HMR has been implemented and tested on Ubuntu 18.04 with python == 3.8.
 
-Install the requirements following environment.yml
+Install the requirements following environment.yml (If you have any difficulty configuring your environment, please let me know. I'd be happy to help!)
 
 ### Pre-processed Dataset Labels
 All the data used in our paper is publicly available. You can just download them from their official website following our

@@ -18,6 +18,6 @@ def get_vitpose_encoder(cfg=None):
     config = 'models/ViTPose/configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/ViTPose_base_coco_256x192.py'
     config = Config.fromfile(config)
     model = VitPose(config)
-    checkpoint = torch.load('/home/yaowei/project/PyMAF-smpl/data/pretrained_model/vitpose-b-multi-coco.pth')
+    checkpoint = torch.load('data/pretrained_model/vitpose-b-multi-coco.pth')
     model.load_state_dict(checkpoint['state_dict'], strict=False)
     return model

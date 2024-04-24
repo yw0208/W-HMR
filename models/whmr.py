@@ -69,12 +69,12 @@ class Regressor(nn.Module):
         self.register_buffer('init_shape', init_shape)
         self.register_buffer('init_cam', init_cam)
 
-        smpl_path = '/home/yaowei/project/PyMAF-smpl/data/smpl/SMPL_NEUTRAL.pkl'
+        smpl_path = 'data/smpl/SMPL_NEUTRAL.pkl'
         with open(smpl_path, 'rb') as smpl_file:
             data_struct = Struct(**pickle.load(smpl_file, encoding='latin1'))
         self.J_regressor = to_tensor(to_np(data_struct.J_regressor), dtype=torch.float32)
 
-        smpl_mesh_graph = np.load('/home/yaowei/project/PyMAF-smpl/data/mesh_downsampling.npz', allow_pickle=True,
+        smpl_mesh_graph = np.load('data/mesh_downsampling.npz', allow_pickle=True,
                                   encoding='latin1')
 
         A = smpl_mesh_graph['A']
@@ -434,7 +434,7 @@ class WHMR(nn.Module):
             num_fc_layers=1,
             num_fc_channels=1024,
         )
-        ckpt = torch.load('/home/yaowei/project/PyMAF-smpl/data/pretrained_model/camcalib_sa_biased_l2.ckpt')
+        ckpt = torch.load('data/pretrained_model/camcalib_sa_biased_l2.ckpt')
         self.cam_model = load_pretrained_model(self.cam_model, ckpt['state_dict'], remove_lightning=True, strict=True)
 
         self.global_orient = Global_Orient_Regressor(smpl_mean_params)

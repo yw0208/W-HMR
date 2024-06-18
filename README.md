@@ -89,7 +89,7 @@ As for training W-HMR for global mesh recovery, I add pseudo-labels of global po
 Part of the code is borrowed from the following projects, including ,[PyMAF](https://github.com/HongwenZhang/PyMAF), [AGORA](https://github.com/pixelite1201/agora_evaluation), [PyMAF-X](https://github.com/HongwenZhang/PyMAF-X), [PARE](https://github.com/mkocabas/PARE), [SPEC](https://github.com/mkocabas/SPEC), [MeshGraphormer](https://github.com/microsoft/MeshGraphormer), [4D-Humans](https://github.com/shubham-goel/4D-Humans), [VitPose](https://github.com/ViTAE-Transformer/ViTPose). Many thanks to their contributions.
 
 ## Citation
-If you find this repository useful, please consider citing our paper:
+If you find this repository useful, please consider citing our paper and lightning the star:
 ```
 @article{yao2023w,
         title={W-HMR: Human Mesh Recovery in World Space with Weak-supervised Camera Calibration and Orientation Correction},

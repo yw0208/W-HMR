@@ -121,9 +121,9 @@ Part of the code is borrowed from the following projects, including ,[PyMAF](htt
 If you find this repository useful, please consider citing our paper and lightning the star:
 ```
 @article{yao2023w,
-        title={W-HMR: Human Mesh Recovery in World Space with Weak-supervised Camera Calibration and Orientation Correction},
-        author={Yao, Wei and Zhang, Hongwen and Sun, Yunlian and Tang, Jinhui},
+        title={W-HMR: Monocular Human Mesh Recovery in World Space with Weak-Supervised Calibration},
+        author={Yao, Wei and Zhang, Hongwen and Sun, Yunlian and Liu, Yebin and Tang, Jinhui},
         journal={arXiv preprint arXiv:2311.17460},
         year={2023}
-}
+      }
 ```

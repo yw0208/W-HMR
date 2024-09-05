@@ -26,15 +26,17 @@ This implementation:
 
 [April 24, 2024] Release more necessary files and preprocessed labels.
 
+[September 5, 2024] Release codes for training and evaluation.
+
 ## TODOs
 
 - [x] Release demo codes.
 
 - [x] Release pre-processed labels. 
 
-- [ ] Release evluation codes.  
+- [x] Release evluation codes.  
 
-- [ ] Release training codes.  
+- [x] Release training codes.  
 
 ## Getting Started
 ### Requirements
@@ -42,7 +44,7 @@ W-HMR has been implemented and tested on Ubuntu 18.04 with python == 3.8.
 
 Install the requirements following environment.yml.
 
-💃 **If you have any difficulty configuring your environment or meet any bug, please let me know. I'd be happy to help!**
+💃 **If you meet any difficulty configuring your environment or any bug, please feel free to contact me. I would be glad to help!**
 
 ## Running the Demo
 
@@ -66,9 +68,36 @@ On the right, they are the output in camera and world coordinate. We put them in
 
 ## Training
 
-Training instructions will follow after publication.
+Note: The training code has not been organized, and errors may occur when running it directly. If you encounter a bug, please contact me.
 
-### Pre-processed Dataset Labels
+```shell
+python train.py --regressor pymaf_net --misc TRAIN.BATCH_SIZE 64
+```
+
+When you want to train a model, run the above command. We provide a variety of options to allow you to customize the training. For more information about training settings, please refer to [train_options.py](core/train_options.py)
+
+
+## Evaluation
+
+### Evaluation on AGORA
+
+```shell
+python evaluate/val_results.py
+```
+
+Run the above command and you will get the evaluation results on AGORA. Then you can zip them and upload the results.zip to [AGORA evaluation platform](https://agora.is.tuebingen.mpg.de/index.html). Remember to modify the path in [val_results.py](evaluate/val_results.py).
+
+### Evaluation on Other Datasets
+
+```shell
+python evaluate/eval.py --checkpoint=[checkpoint_path] --dataset=[dataset_name]
+```
+
+Run the above command and the results will be output to terminal.
+
+### 
+
+## Pre-processed Dataset Labels
 All the data used in our paper is publicly available. You can just download them from their official website following our
 dataset introduction in the [paper](https://arxiv.org/abs/2311.17460v3).
 

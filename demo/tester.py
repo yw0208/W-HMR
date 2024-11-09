@@ -210,6 +210,7 @@ class SPECTester:
                         camera_center=(cx, cy),
                         save_filename=save_filename,
                         cam_params=cam_params,
+                        mesh_filename=mesh_filename,
                     )
 
                     if self.args.display:

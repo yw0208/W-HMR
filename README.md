@@ -46,6 +46,10 @@ Install the requirements following environment.yml.
 
 💃 **If you meet any difficulty configuring your environment or any bug, please feel free to contact me. I would be glad to help!**
 
+Q1: How to install yolov3?
+
+A1: Please refer to [yolov3](https://github.com/mkocabas/yolov3-pytorch) for installation.
+
 ## Running the Demo
 
 ### W-HMR
